@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+body{
+    font-size: 100%;
+	background-image: url("Photo\\background.png");
+    background-repeat:no-repeat;
+    width: 100%;
+    max-width: 1366px;
+}
+.container{
+	font-family: 'Verdana', serif;
+    font-style: normal;
+    font-weight: 600;
+    width: 100%;
+    max-width: 1048px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.header{
+    margin-top: 49px;
+    margin-left: 0px;
+    margin-right: 0px;
+    float: left;
+    margin-bottom: 46px;
+}
+.logo{
+    float: left;
+}
+.logo_left{
+    float:left;
+    padding-left: 13px;
+}
+.logo_right{
+    float:right;
+    margin-top: -30px;
+    margin-left: 729px;
+}
+.logomilan{
+    font-size: 22px;
+    font-weight:900;
+}
+.logoholidays{
+    font-size: 13px;
+    font-weight:550;
+    padding-top: 3px;
+}
+.phone{
+    float: right;
+    font-size: 13px;
+    margin-right: 0px;
+    padding-left: 72px;
+    padding-top: 2px;
+}
+.milo{
+    float: right;
+    font-size: 13px;
+    padding-bottom: 2px;
+}
+a{
+    color:#ffffff;
+    text-decoration: none;
+}
+.thumb{
+    margin-top: 0px;
+    padding-top: 96px;
+}
+.thumb figure {
+    width: 307px;
+    height: 200px;
+    display: inline-block;
+}
+.thumb figure:first-child {
+    width: 307px;
+    height: 200px;
+    margin-right: 63px;
+    display: inline-block;
+}
+.thumb figure:last-child {
+    width: 307px;
+    height: 200px;
+    margin-left: 63px;
+    display: inline-block;
+}
+.thumb img {
+    border: 2px solid transparent;
+	-moz-border-image: -moz-linear-gradient(top, #ffff 0%, #0000 100%);
+	-webkit-border-image: -webkit-linear-gradient(top, #ffff 0%, #0000 100%);
+	border-image: linear-gradient(to bottom, #ffff 0%, #0000  100%);
+	border-image-slice: 1;
+    width: 100%;
+} 
+.thumb figcaption {
+    font-size: 13px;
+    color: #ffffff;
+    font-style: normal;
+}
+.copiright{
+    color:#ffffff;
+    text-align: center;
+    padding-top: 90px;
+    font-size: 7px;
+}
+svg{
+    float: left;
+    height: 47px;
+    width: 44px;
+}
+a svg:hover #logo { 
+  fill: #f26522;
+}
+
+.logo_left .logoh:hover{
+  color: #f26522;
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+a svg #logo { 
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+figcaption {
+    text-align: center;
+    position: relative;
+    color: #FFF;
+    width: 311px;
+    height: 60px;
+    bottom: 0px;
+    left: 0;
+    transition: .4s;
+}
+.figgi{
+    opacity: 0;
+    float: left;
+}
+.figgi_passiv{
+    float: left;
+    margin-top: -40px;
+}
+.thumb p{
+    padding-top: 20px;
+}
+.thumb .right_vision{
+    float: right;
+    font-size: 10px;
+    margin-right: 20px;
+}
+.thumb .left1_vision{
+    float: left;
+    font-size: 7px;
+    margin-left: 20px;
+}
+.thumb .left2_vision{
+    float: left;
+    font-size: 15px;
+    margin-left: -20px;
+}
+figure:hover .figgi{
+    bottom: 60px;
+    background: #f26522;
+    opacity: 1;
+    transition: 400ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 400ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+figure a:hover{
+    color: #f26522;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
